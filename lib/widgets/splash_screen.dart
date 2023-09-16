@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:viinon/gen/colors.gen.dart';
 import 'package:viinon/screens/home_screen/home_screen.dart';
+import 'package:viinon/screens/slider_screen/slider_screen.dart';
+import 'package:viinon/screens/utils/app_navigator.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -124,10 +126,8 @@ class _BottomPart extends StatelessWidget {
             ),
             const SizedBox(height: 50.0),
             GestureDetector(
-              onTap: () {
-                Navigator.of(context).pushNamedAndRemoveUntil(
-                    '/slider', (Route<dynamic> route) => false);
-              },
+              onTap: () =>
+                  AppNavigator.pushReplacement(context, const MySlider()),
               child: Align(
                 alignment: Alignment.centerRight,
                 child: Container(
