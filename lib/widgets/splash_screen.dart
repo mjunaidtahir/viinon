@@ -128,21 +128,19 @@ class _BottomPart extends StatelessWidget {
                 Navigator.of(context).pushNamedAndRemoveUntil(
                     '/slider', (Route<dynamic> route) => false);
               },
-              child: Container(
-                child: Align(
-                  alignment: Alignment.centerRight,
-                  child: Container(
-                    height: 50.0,
-                    width: 50.0,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      border: Border.all(color: Colors.white, width: 2.0),
-                    ),
-                    child: const Icon(
-                      Icons.chevron_right,
-                      size: 40.0,
-                      color: Colors.white,
-                    ),
+              child: Align(
+                alignment: Alignment.centerRight,
+                child: Container(
+                  height: 50.0,
+                  width: 50.0,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    border: Border.all(color: Colors.white, width: 2.0),
+                  ),
+                  child: const Icon(
+                    Icons.chevron_right,
+                    size: 40.0,
+                    color: Colors.white,
                   ),
                 ),
               ),
