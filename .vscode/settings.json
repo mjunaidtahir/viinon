@@ -17,6 +17,7 @@
     "cupertino",
     "firestore",
     "geolocator",
+    "Getx",
     "pinput",
     "Solway"
   ]
