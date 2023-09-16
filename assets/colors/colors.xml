@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="primaryGreen" type="material">#305732</color>
+ <!-- Forest Green -->
+    <color name="forest_green">#1d592d</color>
+
+    <!-- Lime Green -->
+    <color name="lime_green">#99d278</color>
+
+    <!-- Mint Green -->
+    <color name="mint_green">#94D8A8</color>
+
+    <!-- Dark Maroon -->
+    <color name="dark_maroon">#582308</color>
+
+    <!-- Light Maroon -->
+    <color name="light_maroon">#934713</color>
+
+    <!-- Salmon Orange -->
+    <color name="salmon_orange">#f89651</color>
+
+    <!-- Peach Orange -->
+    <color name="peach_orange">#D5BA90</color>
+
+    <!-- Sunflower Yellow -->
+    <color name="sunflower_yellow">#f0b732</color>
+
+    <!-- Pale Yellow -->
+    <color name="pale_yellow">#FFFFEC4E</color>
+
+    <!-- Navy Blue -->
+    <color name="navy_blue">#063370</color>
+
+    <!-- Royal Blue -->
+    <color name="royal_blue">#004AAD</color>
+
+    <!-- Lavender Purple -->
+    <color name="lavender_purple">#7547AE</color>
+
+    <!-- Pastel Purple -->
+    <color name="pastel_purple">#B1A1ED</color>
+
+    <!-- Rose Pink -->
+    <color name="rose_pink">#EF7B97</color>
+
+    <!-- Off White -->
+    <color name="off_white">#FEFAF6</color>
+
+    <!-- Jet Black -->
+    <color name="jet_black">#000000</color>
+
+    <!-- Deep Blue Text -->
+    <color name="deep_blue_text">#253840</color>
+
+    <!-- Dark Gray Text -->
+    <color name="dark_gray_text">#17262A</color>
+
+    <!-- Light Gray Text -->
+    <color name="light_gray_text">#4A6572</color>
 
     
 </resources>

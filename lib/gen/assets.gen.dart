@@ -11,6 +11,30 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter/services.dart';
 
+class $AssetsAnimationsGen {
+  const $AssetsAnimationsGen();
+
+  /// File path: assets/animations/animation.json
+  String get animation => 'assets/animations/animation.json';
+
+  /// File path: assets/animations/coffeesplash.json
+  String get coffeesplash => 'assets/animations/coffeesplash.json';
+
+  /// File path: assets/animations/scuccess.json
+  String get scuccess => 'assets/animations/scuccess.json';
+
+  /// File path: assets/animations/viinon1.json
+  String get viinon1 => 'assets/animations/viinon1.json';
+
+  /// File path: assets/animations/viinon2.png
+  AssetGenImage get viinon2 =>
+      const AssetGenImage('assets/animations/viinon2.png');
+
+  /// List of all assets
+  List<dynamic> get values =>
+      [animation, coffeesplash, scuccess, viinon1, viinon2];
+}
+
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
@@ -140,6 +164,7 @@ class $AssetsTranslationsGen {
 class Assets {
   Assets._();
 
+  static const $AssetsAnimationsGen animations = $AssetsAnimationsGen();
   static const $AssetsImagesGen images = $AssetsImagesGen();
   static const $AssetsSliderGen slider = $AssetsSliderGen();
   static const $AssetsTranslationsGen translations = $AssetsTranslationsGen();
