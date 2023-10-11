@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/route_manager.dart';
 import 'package:viinon/screens/utils/app_theme.dart';
 import 'package:viinon/widgets/splash_screen.dart';
 
@@ -12,7 +11,7 @@ class ViinonApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return MaterialApp(
       theme: Themes().selectLightTheme(),
       home: const SplashScreen(),
     );

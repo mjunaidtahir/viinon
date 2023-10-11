@@ -1,8 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:viinon/gen/colors.gen.dart';
-import 'package:viinon/screens/main_screen/main_screen.dart';
-import 'package:viinon/screens/utils/app_navigator.dart';
 
 class MySlider extends StatefulWidget {
   const MySlider({Key? key}) : super(key: key);
@@ -48,7 +46,7 @@ class _MySliderState extends State<MySlider> {
         }).toList(),
       ),
       floatingActionButton: GestureDetector(
-        onTap: () => AppNavigator.pushReplacement(context, const MainScreen()),
+        // onTap: () => AppNavigator.pushReplacement(context, const MainScreen()),
         child: Container(
           height: 50.0,
           width: 50.0,
